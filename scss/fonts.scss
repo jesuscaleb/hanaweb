@@ -1,0 +1,33 @@
+/* Fonts */
+
+/* Gothan Bold*/
+@font-face {
+    font-family: 'Gothan';
+    font-weight: bold;
+    src: url("/fonts/GothamBold.otf") format("opentype");
+}
+
+/* Open Sans Bold*/
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    src: url("/fonts/OpenSans-Bold.eot");
+    src: url('/fonts/OpenSans-Bold.ttf')  format('truetype'),
+        url('/fonts/OpenSans-Bold.woff') format('woff');
+}
+
+/* Open Sans Regular*/
+@font-face {
+    font-family: 'Open Sans Regular';    
+    src: url("/fonts/OpenSans-Regular.eot");
+    src: url("/fonts/OpenSans-Regular.ttf") format('truetype'),
+        url("/fonts/OpenSans-Regular.woff") format('woff');
+}
+
+/* Open Sans Semibold */
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url("/fonts/OpenSans-Semibold.eot");
+    src: url("/fonts/OpenSans-Semibold.ttf") format('truetype'),
+        url("/fonts/OpenSans-Semibold.woff") format('woff');
+}
