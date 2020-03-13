@@ -10051,6 +10051,9 @@ html, body {
 .det-start-item p, .det-mid-desc p {
   margin-top: 16px; }
 
+.det-end-img {
+  text-align: center; }
+
 .itsystems-det-end {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -10058,6 +10061,37 @@ html, body {
     font-family: 'Open Sans';
     font-weight: bold;
     text-align: center;
+    color: #5991fb; }
+
+.itsystems-meto {
+  background-image: url("/img/bgmeto.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  @media screen and (max-width: 375px) {
+    .itsystems-meto {
+      background-image: none; } }
+
+.meto-title {
+  color: #5991fb;
+  font-family: 'Open Sans';
+  font-weight: bold; }
+
+.meto-desc ul {
+  padding-left: 1px; }
+  .meto-desc ul li {
+    list-style-type: none;
+    padding-bottom: 1px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    font-weight: bold; }
+  .meto-desc ul li:before {
+    content: '\25CF';
+    font-size: 25px;
+    padding-right: 10px;
     color: #5991fb; }
 
 .itsystems-footer .itsystems-pre-footer {

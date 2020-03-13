@@ -27,6 +27,7 @@ $rgba-lgtgray: rgba(244,246,249,0.5);
 // Background images
 
 $bgmain: '/img/bgmain.png';
+$bgmeto: '/img/bgmeto.png';
 
 html, body {
   height: 100%;
@@ -233,7 +234,9 @@ html, body {
         margin-top: 16px;
     }
 }
-
+.det-end-img{
+    text-align: center;
+}
 .itsystems-det-end{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -242,6 +245,45 @@ html, body {
         font-weight: bold;
         text-align: center;
         color: $aqua;
+    }
+}
+
+.itsystems-meto{
+    background-image: url($bgmeto);
+    background-color: $dark;
+    @media screen and (max-width: $break-small) {
+        background-image: none;
+    }
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.meto-title{
+    color: $aqua;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.meto-desc{
+    ul{
+        padding-left: 1px;
+        li{
+            list-style-type: none;       
+            padding-bottom: 1px;
+            color: $white;
+            font-size: 17px;
+            font-family: 'Open Sans';
+            font-weight: bold;
+            
+        }
+        li:before{
+            content: '\25CF';
+            font-size: 25px;
+            padding-right: 10px;
+            color: $aqua;
+        }
     }
 }
 
