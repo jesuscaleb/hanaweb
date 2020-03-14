@@ -9913,7 +9913,13 @@ html, body {
   color: white;
   font-family: 'Open Sans Semibold'; }
 
+.hmb img {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto; }
+
 .head-start-item {
+  cursor: pointer;
   padding: 20px;
   text-align: center;
   border: 1px solid white; }
@@ -9945,6 +9951,11 @@ html, body {
   font-family: 'Open Sans Semibold';
   color: #232626;
   padding: 20px; }
+
+.response {
+  background-color: rgba(244, 246, 249, 0.5);
+  font-family: 'Open Sans Semibold';
+  color: white; }
 
 .itsystems-form input {
   border-radius: 0px;
@@ -10002,6 +10013,9 @@ html, body {
     margin-right: auto;
     margin-bottom: 2rem;
     padding: 10px; }
+    @media screen and (max-width: 375px) {
+      .curso-foot .ver {
+        width: 50%; } }
     .curso-foot .ver span {
       color: white; }
 
@@ -10094,7 +10108,35 @@ html, body {
     padding-right: 10px;
     color: #5991fb; }
 
+.itsystems-pago {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .itsystems-pago h2 {
+    color: #5991fb;
+    font-family: 'Open Sans Semibold'; }
+
+.pago-item-img {
+  text-align: center;
+  border-right: #5991fb 5px solid; }
+  @media screen and (max-width: 375px) {
+    .pago-item-img {
+      border-right: none; } }
+
+.pago-item-desc {
+  color: #5991fb;
+  font-family: 'Open Sans Regular';
+  font-size: 17px; }
+  .pago-item-desc p {
+    font-weight: 600; }
+  .pago-item-desc ul {
+    padding-left: 1px; }
+    .pago-item-desc ul li {
+      list-style-type: none;
+      padding-bottom: 1px; }
+
 .itsystems-footer .itsystems-pre-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #142a4a; }
   .itsystems-footer .itsystems-pre-footer .itsystems-footer-contacto {
     margin-top: 20px;
@@ -10113,6 +10155,32 @@ html, body {
   background-color: #142a4a;
   color: white;
   font-family: 'Open Sans Regular'; }
+
+.pre-footer-img {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center; }
+  .pre-footer-img h4 {
+    color: white;
+    font-family: 'Open Sans Regular'; }
+
+.pre-footer-contacto {
+  color: white;
+  font-family: 'Open Sans Regular';
+  font-size: 15px; }
+  .pre-footer-contacto h2 {
+    margin-bottom: 0px; }
+  .pre-footer-contacto ul {
+    padding-left: 1px; }
+    .pre-footer-contacto ul li {
+      list-style-type: none;
+      padding-bottom: 1px; }
+    .pre-footer-contacto ul li:before {
+      content: '\25CF';
+      font-size: 25px;
+      padding-right: 10px;
+      color: #5991fb; }
 
 .iti__flag {
   background-image: url("/img/icons/flags.png"); }

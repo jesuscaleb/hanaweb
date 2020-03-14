@@ -64,8 +64,15 @@ html, body {
     color: $white;
     font-family: 'Open Sans Semibold';
 }
-
+.hmb{
+    img{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
 .head-start-item{
+    cursor: pointer;
     padding: 20px;
     text-align: center;
     border: 1px solid $white;
@@ -100,6 +107,12 @@ html, body {
     font-family: 'Open Sans Semibold';
     color: $black;
     padding: 20px;
+}
+
+.response{
+    background-color: $rgba-lgtgray;
+    font-family: 'Open Sans Semibold';
+    color: $white;
 }
 
 .itsystems-form{
@@ -166,6 +179,9 @@ html, body {
         cursor: pointer;
         background-color: $black;
         width: 35%;
+        @media screen and (max-width: $break-small) {
+            width: 50%;
+        }
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 2rem;
@@ -287,10 +303,48 @@ html, body {
     }
 }
 
+.itsystems-pago{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2{
+        color: $aqua;
+        font-family: 'Open Sans Semibold';
+    }
+}
+
+.pago-item-img{
+    text-align: center;
+
+    border-right: $aqua 5px solid;
+    @media screen and (max-width: $break-small) {
+        border-right: none;
+    }
+}
+
+.pago-item-desc{
+    color: $aqua;
+    font-family: 'Open Sans Regular';
+    font-size: 17px;
+    p{
+        font-weight: 600;
+    }
+
+    ul{
+        padding-left: 1px;
+        li{
+            list-style-type: none;       
+            padding-bottom: 1px;            
+            
+        }
+        
+    }
+}
+
 .itsystems-footer{
     //margin-bottom: 45px;
     .itsystems-pre-footer{
-      
+      padding-top: 30px;
+      padding-bottom: 30px;
       background-color: $blue74;
       .itsystems-footer-contacto{
         margin-top: 20px;
@@ -315,6 +369,41 @@ html, body {
     color: $white;
     font-family: 'Open Sans Regular';
   }
+}
+
+.pre-footer-img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    h4{
+        color: $white;
+        font-family: 'Open Sans Regular';
+    }
+}
+
+.pre-footer-contacto{
+    color: $white;
+    font-family: 'Open Sans Regular';
+    font-size: 15px;
+
+    h2{
+        margin-bottom: 0px;
+    }
+
+    ul{
+        padding-left: 1px;
+        li{
+            list-style-type: none;       
+            padding-bottom: 1px;            
+        }
+        li:before{
+            content: '\25CF';
+            font-size: 25px;
+            padding-right: 10px;
+            color: $aqua;
+        }
+    }
 }
 
 .iti__flag {background-image: url("/img/icons/flags.png");}
