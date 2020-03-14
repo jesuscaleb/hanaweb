@@ -406,6 +406,79 @@ html, body {
     }
 }
 
+.modal-backdrop{
+    background-image: url(/img/bghana.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 100% !important;
+
+    
+}
+
+.modal.fade .modal-dialog.modal-dialog-zoom {
+    -webkit-transform: translate(0,0)scale(.5);
+    transform: translate(0,0)scale(.5);
+  }
+  .modal.show .modal-dialog.modal-dialog-zoom {
+    -webkit-transform: translate(0,0)scale(1);
+    transform: translate(0,0)scale(1);
+  }
+  
+  .sap-content{
+      
+    h4{
+        font-family: 'Open Sans Regular';
+        font-weight: 600;
+        color: $aqua;
+    }
+
+    p{
+        color: $white;
+        span{
+            color: $yellow;
+            font-weight: 600;
+        }
+    }
+  }
+
+  .modal-content  {
+    /*max-height: calc(100vh - 200px);
+    overflow-y: auto;*/
+    border: 0px;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+  }
+
+  .bgblue{
+      background-color: $aqua;
+  }
+
+  .bgblack{
+    padding: 20px;
+      background-color: $dark;
+      border: $aqua solid 2px;
+  }
+
+.outbounds{
+    position: relative;
+    bottom: 100px;
+    h1{
+        text-align: center;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        color: $white;
+    }
+}
+
+.underline{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: $white;
+}
+
 .iti__flag {background-image: url("/img/icons/flags.png");}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {background-image: url("/img/icons/flags@2x.png");}
